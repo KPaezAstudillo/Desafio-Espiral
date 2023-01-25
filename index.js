@@ -16,7 +16,7 @@ for (var i = 0; i < size; i++) {
 //función para encontrar el elemento central de la matriz
 function centroMatriz() {
     const mitad = size / 2;
-    centro = Math.floor(mitad + 1); //así calculé la ubicación del elemento central, mas adelante se utilizará para comenzar el espiral
+    centro = Math.floor(mitad); //así calculé la ubicación del elemento central, mas adelante se utilizará para comenzar el espiral
     return centro;
 }
 
